@@ -1,0 +1,95 @@
+
+{
+    "emp_details": [
+        {
+            "emp_name": "ShanevanHeezik",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=139556&security_token=2f2eee9e81f9211853d93ef70cf29e95af97041425108267420e766ffcd444fb",
+                "email": "Shaneiemans@gmail.com",
+                "password": "Muizieoe25",
+                "password_bytes": "b'TXVpemllb2UyNQ=='"
+            }
+        },
+        {
+            "emp_name": "JacobvandeWerfhorst",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131644&security_token=93c9d4aa8e5127e2bc5c4c69f69129bb9071faa1efa88eb4697e3daa53430c6a",
+                "email": "15802@edu.groevenbeek.nl",
+                "password": "sprookjesboom123",
+                "password_bytes": "b'c3Byb29ramVzYm9vbTEyMw=='"
+            }
+        },
+        {
+            "emp_name": "LarsvanNieuwenhuizen",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131662&security_token=718c484191d4e7730087b3c7cdd4c47aee199f2473e00e7cb496081b02f73375",
+                "email": "Larsvannieuwenhuizen2007@gmail.com",
+                "password": "larsvn12",
+                "password_bytes": "b'bGFyc3ZuMTI='"
+            }
+        },
+        {
+            "emp_name": "BoazKorstanje",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131653&security_token=0ae37e5c5804dfda84a82537baeadf57360d883ceff87d98d0b645ab6d03069e",
+                "email": "16236@edu.groevenbeek.nl",
+                "password": "Maxverstappen33",
+                "password_bytes": "b'TWF4dmVyc3RhcHBlbjMz'"
+            }
+        },
+        {
+            "emp_name": "XaviGielen",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131645&security_token=b38341c5fc82dae557d60950cddf9fb394b72a7585d4dacaa6c16083a84e1c37",
+                "email": "16032@edu.groevenbeek.nl",
+                "password": "Xavigielen2007",
+                "password_bytes": "b'WGF2aWdpZWxlbjIwMDc='"
+            }
+        },
+        {
+            "emp_name": "ThijmenOostwouder",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131663&security_token=e59149947e5f85af7529837db73b4d6d5c8664d53cd6ba1eb1e44e2fb85e388f",
+                "email": "16180@edu.groevenbeek.nl",
+                "password": "thijmen2008",
+                "password_bytes": "b'dGhpam1lbjIwMDg='"
+            }
+        },
+        {
+            "emp_name": "MarintheMulder",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131652&security_token=161eeb41f1df15f1c20c456bde4716db83d58495814ffe915d236fb59b109431",
+                "email": "16278@edu.groevenbeek.nl",
+                "password": "zeewolde2008",
+                "password_bytes": "b'emVld29sZGUyMDA4'"
+            }
+        },
+        {
+            "emp_name": "JaivyButzelaar",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131651&security_token=99cc38f31d604ae4402c244f3452e0c937bd35744c2570223dbe82cd7ebdb5c4",
+                "email": "16229@edu.groevenbeek.nl",
+                "password": "11233445566.aA",
+                "password_bytes": "b'MTEyMzM0NDU1NjYuYUE='"
+            }
+        },
+        {
+            "emp_name": "SilkePilon",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131661&security_token=304a901bdff4ccfcef70ffa71369aa43031298082d2e5c84d0507f3f0c14578d",
+                "email": "silkepilon2009@gmail.com",
+                "password": "Landrover01",
+                "password_bytes": "b'TGFuZHJvdmVyMDE='"
+            }
+        },
+        {
+            "emp_name": "ThobynKuulkers",
+            "data": {
+                "url": "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=143230&security_token=6c2597dd11ee126683fac492c791fd7c634330fe161c10937ef0e14947026dab",
+                "email": "17126@edu.groevenbeek.nl",
+                "password": "Yeet0296_1hoi",
+                "password_bytes": "b'WWVldDAyOTZfMWhvaQ=='"
+            }
+        }
+    ]
+}

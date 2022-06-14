@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icon.ico') }}">
+    <style>
+        body {
+          background-color: #ffff;
+          font-family: 'Ubuntu', sans-serif;
+        }
+
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 1; /* Firefox */
+          }
+          
+          :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: white;
+          }
+          
+          ::-ms-input-placeholder { /* Microsoft Edge */
+            color: white;
+          }
+
+        
+  
+        .search-box input{
+            height: 50px;
+            width: 230px;
+            outline: none;
+            border: none;
+            background: rgba( 0, 0, 0, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 13px );
+            -webkit-backdrop-filter: blur( 13px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+        }
+        
+        .glass {
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 13px );
+            -webkit-backdrop-filter: blur( 13px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+
+        #myVideo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+
+        .exel {
+            color: #ffff;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 13px );
+            -webkit-backdrop-filter: blur( 13px );
+            border-radius: 1.3em;
+            margin-top: 10px;
+            width: 1080px;
+            
+            /* optional size in px or %: */
+            
+            
+        }
+
+        .card {
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 13px );
+            -webkit-backdrop-filter: blur( 13px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            position: relative;
+            color: #ffff;
+            border-radius: 1.2em !important;
+            
+            border-top-left-radius: 1.4em;
+            border-top-right-radius: 1.4em;
+            border-bottom-left-radius: 1.4em;
+            border-bottom-right-radius: 1.4em;
+            
+            box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        }
+        .submit2 {
+              font-weight: bold;
+              cursor: pointer;
+              border-radius: 5em;
+              color: #fff;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.192));
+              border: 0;
+              padding-left: 40px;
+              padding-right: 40px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+              font-family: 'Ubuntu', sans-serif;
+              
+              font-size: 12px;
+              box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+          }
+          /* Dropdown Button */ 
+        .dropdown-button { 
+            
+            color: #ffff;
+            display: table-cell; vertical-align: middle
+            position: center; 
+            
+            
+            font-size: 20px;
+            border: none; 
+            width: 300px;
+            height: 40px;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 13px );
+            -webkit-backdrop-filter: blur( 13px );
+            border-radius: 8px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+        } 
+        .dropdown { 
+            position: relative; 
+            display: inline-block; 
+        } 
+        /* Dropdown Content (Hidden by Default) */ 
+        .dropdown-list { 
+            transition-property:width;
+            transition: all 1s ease;
+            display: none; 
+            position: center; 
+            color: white;
+            min-width: 160px; 
+            margin-top: 15px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+            z-index: 1; 
+            padding: 16px; 
+            font-size: 16px; 
+            border: none; 
+            width: 310px;
+            background: rgba( 255, 255, 255, 0.20 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 13px );
+            -webkit-backdrop-filter: blur( 13px );
+            border-radius:1em;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+        } 
+        /* Links inside the dropdown */ 
+        .dropdown-list a { 
+            color: white;
+            padding: 12px 16px; 
+            text-decoration: none; 
+            display: block; 
+            font-family: verdana; 
+            font-size: 20px;
+        } 
+        /* Change color of dropdown links on hover */ 
+        .dropdown-list a:hover { 
+            border-radius: 6px;
+            background: rgba( 0, 0, 0, 0.25 );
+        } 
+        /* Show the dropdown list on hover */ 
+        .dropdown:hover .dropdown-list { 
+            display: block; 
+            
+        } 
+        /* Change the background color of the dropdown button when the dropdown list is shown */ 
+        .dropdown:hover .dropdown-button { 
+            background: rgba( 0, 0, 0, 0.25 );
+        } 
+
+        .icon {
+            background: {{ url_for('static', filename='logo.png') }};
+            height: 20px;
+            width: 20px;
+            display: block;
+            /* Other styles here */
+        }
+      
+    
+          
+      </style>
+</head>
+
+<body>
+    <video autoplay muted poster="" id="myVideo">
+        <source src="{{ url_for('static', filename='bg.mp4') }}" type="video/mp4">
+    </video>
+    <script>
+        document.querySelector('video').playbackRate = 0.6;;
+    </script>
+    
+    
+    <div class="container">
+    	<br>
+        <br>
+    	<div class="card">
+    		<div class="card-header"><b>Mijn kerndoelen</b></div>
+    		<div class="card-body">
+                <center>
+                    <h2>{{tel}}<h2>
+                    <h3>{{tel2}}<h3>
+                    <h4>{{tel3}}</h4>
+                    <br>
+
+                    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+                    <div class="dropdown"> 
+                        <button class="dropdown-button">selecteer een leerling</button> 
+                        <div class="dropdown-list"> 
+                            <from class="search-box">
+                                <form role="search" id="form">
+                                  <input style="font-size: 11px;" type="text" id="query" placeholder="  Naam...">
+                                </form>
+                            </from>
+                            <br>
+                            
+
+
+                            {% for name in names %}
+                                {% if 'SilkePilon' in name %}
+                                    <a href="/kern/{{name}}">{{name}} [<img style="margin-top:-1px" src="{{ url_for('static', filename='logo2.png') }}" width="20" height="20" alt="dit logo geeft aan dat deze gebruiker geverifieerd is." title="eigenaar/owner"/>]</a>
+                                    {% else %}
+
+                                
+                                        {% if 'ShanevanHeezik' in name or 'JaivyButzelaar' in name%}
+                                        <a href="/kern/{{name}}">{{name}} [<img style="margin-top:-1px" src="{{ url_for('static', filename='logo.png') }}" width="20" height="20" alt="dit logo geeft aan dat deze gebruiker geverifieerd is." title="dit logo geeft aan dat deze gebruiker geverifieerd is."/>]</a>
+
+
+                                
+                                        {% else %}
+                                            <a href="/kern/{{name}}">{{name}}</a> 
+                                        {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                            
+                            
+                            <br>
+                        </div> 
+                    </div> 
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    
+                
+                    
+                    <a style="margin-bottom: 50px;" id="foo" class="submit2" align="center" href="https://kerndoelen.com/update/{{name}}">update</a>
+                    <br>
+                    <br>
+                    <a class="submit2" align="center" href="https://kerndoelen.com/urlupload">Link peppels account</a>
+                    <br>
+                    <br>
+                   
+                    
+
+                    <br>
+                    <a class="submit2" align="center" href="https://kerndoelen.com/">terug naar home pagina</a>
+                    <script>
+                        evt.preventDefault();
+                        document.getElementById("foo").onclick = function() {
+                            setTimeout(function() {
+                                // do stuff
+                            }, 50000); // triggers the callback after 5s
+                        };
+                    </script>
+                </center>
+    		</div>
+    	</div>
+        <script>
+            const f = document.getElementById('form');
+            const q = document.getElementById('query');
+            const google = 'https://kerndoelen.com/kern/';
+            const ipdata = 'pagedart.com';
+            function submitted(event) {
+              event.preventDefault();
+              const url = google + q.value;
+              window.location.href = url;
+            }
+  
+            f.addEventListener('submit', submitted);
+          </script>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="exel"></div>
+    <center>
+        <div id="excel_data" class="exel"></div>
+    </center>
+</body>
+</html>
+
+<script>
+
+const excel_file = document.getElementById('excel_file');
+
+excel_file.addEventListener('change', (event) => {
+
+    if(!['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-excel'].includes(event.target.files[0].type))
+    {
+        document.getElementById('excel_data').innerHTML = '<div class="alert alert-danger">Alleen .xlsx of .xls bestanden zijn toegestaan!</div>';
+
+        excel_file.value = '';
+
+        return false;
+    }
+
+    var reader = new FileReader();
+
+    reader.readAsArrayBuffer(event.target.files[0]);
+
+    reader.onload = function(event){
+
+        var data = new Uint8Array(reader.result);
+
+        var work_book = XLSX.read(data, {type:'array'});
+
+        var sheet_name = work_book.SheetNames;
+
+        var sheet_data = XLSX.utils.sheet_to_json(work_book.Sheets[sheet_name[0]], {header:1});
+
+        if(sheet_data.length > 0)
+        {
+            var table_output = '<table class="table table-striped">';
+
+            for(var row = 0; row < sheet_data.length; row++)
+            {
+
+                table_output += '<tr>';
+
+                for(var cell = 0; cell < sheet_data[row].length; cell++)
+                {
+
+                    if(row == 0)
+                    {
+
+                        table_output += '<th>'+sheet_data[row][cell]+'</th>';
+
+                    }
+                    else
+                    {
+
+                        table_output += '<td>'+sheet_data[row][cell]+'</td>';
+
+                    }
+
+                }
+
+                table_output += '</tr>';
+
+            }
+
+            table_output += '</table>';
+
+            document.getElementById('excel_data').innerHTML = table_output;
+        }
+
+        excel_file.value = '';
+
+    }
+
+});
+
+</script>
