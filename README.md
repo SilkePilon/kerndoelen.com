@@ -113,7 +113,10 @@ To get a local copy up and running follow these simple example steps.
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/datastored.png" alt="Logo">
   </a>
 
-
+<div align="center">
+  <a href="https://github.com/SilkePilon/kerndoelen.com/">
+    <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/dataonreq.png" alt="Logo">
+  </a>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
