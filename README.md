@@ -14,8 +14,10 @@ A simple site to view infomation for the students of groebenbeek next.
 update info soon!
 
 ## Features
-soon!
-
+- full list of kerndoelen
+- count the kerndoelen you completed
+- get extra infomation
+- search up kerndoelen
 
 
 ## Authors
