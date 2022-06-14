@@ -209,5 +209,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/SilkePilon/kerndoelen.com.svg?style=for-the-badge
 [issues-url]: https://github.com/SilkePilon/kerndoelen.com/issues
 [license-shield]: https://img.shields.io/github/license/SilkePilon/kerndoelen.com.svg?style=for-the-badge
-[license-url]: https://github.com/SilkePilon/kerndoelen.com/blob/master/LICENSE.txt
+[license-url]: https://github.com/SilkePilon/kerndoelen.com/blob/master/LICENSE.md
 [product-screenshot]: images/screenshot.png
