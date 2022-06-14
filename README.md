@@ -104,9 +104,7 @@ this is a school project i made for the studens of groevenbeek next.
 <!-- GETTING STARTED -->
 ## Code
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+down below you can see some more infomation on the code and more will be added!
 
 
 <div align="center">
