@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/overnice-exe/custom-capes/blob/main/logo.bmp" />
+  <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/logo.png" />
 </p>
 
 
