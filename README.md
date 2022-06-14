@@ -108,11 +108,13 @@ this is a school project i made for the studens of groevenbeek next.
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+
+#### Infomation stored on you:
 <div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/datastored.png" alt="Logo">
   </a>
-
+#### When you make a request:
 <div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/dataonreq.png" alt="Logo">
