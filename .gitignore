@@ -19,3 +19,5 @@ middle.cer
 root.cer
 token files/*
 token.json
+server.key
+server.key.org
