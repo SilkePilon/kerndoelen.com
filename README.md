@@ -37,14 +37,14 @@
   <p align="center">
     a simple site for infomation.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SilkePilon/kerndoelen.com"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/SilkePilon/kerndoelen.com">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/SilkePilon/kerndoelen.com/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/SilkePilon/kerndoelen.com/issues">Request Feature</a>
   </p>
 </div>
 
@@ -143,7 +143,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/SilkePilon/kerndoelen.com/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -189,7 +189,7 @@ For more information, please refer to https://unlicense.org
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/SilkePilon/kerndoelen.com](https://github.com/SilkePilon/kerndoelen.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
