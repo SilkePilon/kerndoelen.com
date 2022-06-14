@@ -12,3 +12,10 @@ ips.txt.old
 pass.txt
 *.save
 **.save
+PKCS12_Credential_kerndoelen@gmail.com.zip
+PKCS12_Credential_kerndoelen@gmail.com.pfx
+email-pass.txt
+middle.cer
+root.cer
+token files/*
+token.json
