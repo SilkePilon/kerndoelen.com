@@ -110,7 +110,7 @@ To get a local copy up and running follow these simple example steps.
 
 <div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
-    <img src="ttps://github.com/SilkePilon/kerndoelen.com/blob/master/logo.png" alt="Logo">
+    <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/datastored.png" alt="Logo">
   </a>
 
 
