@@ -1,5 +1,5 @@
 import os
-os.system("git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch .' HEAD")
+os.system("git rm -r --cached --ignore-unmatch .")
 os.system("git add .")
 msg = input("message: ")
 msg = '"' + msg + '"'
