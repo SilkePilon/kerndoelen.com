@@ -4,3 +4,11 @@ static_folder/*
 **.mp4
 static/bg.mp4
 urls.json.save
+credentials.json
+adminusers.txt
+data.json
+ips.txt
+ips.txt.old
+pass.txt
+*.save
+**.save
