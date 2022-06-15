@@ -27,3 +27,5 @@ ip : 31.121.55.210
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 986-651-558
+ * Detected change in '/root/server/school/github.py', reloading
+ * Restarting with stat
