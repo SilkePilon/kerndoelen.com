@@ -18,3 +18,4 @@
  * Debugger is active!
  * Debugger PIN: 986-651-558
 23.251.102.74 - - [15/Jun/2022 16:15:55] "GET /admin/ HTTP/1.1" 404 -
+208.115.199.27 - - [15/Jun/2022 16:17:56] "HEAD / HTTP/1.1" 200 -
