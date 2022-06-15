@@ -6,7 +6,7 @@ with open("server.log", "r") as x:
 with open("readme.txt", "r") as f:
     contents = f.readlines()
 
-log = str(log).replace("'", "").replace(",", "\\").replace('"', '').replace("[", "").replace("]", "").replace("http://167.172.47.127:80", "i hide my ip")
+log = str(log).replace("'", "").replace(",", "\n").replace('"', '').replace("[", "").replace("]", "").replace("http://167.172.47.127:80", "i hide my ip")
 contents.insert(105, "```" + log + "\n" + "```")
 
 
