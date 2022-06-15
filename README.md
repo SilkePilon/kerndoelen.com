@@ -136,10 +136,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] kerndoelen counter
+- [x] kerndoelen finder
+- [ ] see not completet kerndoelen
 
 See the [open issues](https://github.com/SilkePilon/kerndoelen.com/issues) for a full list of proposed features (and known issues).
 
@@ -185,7 +184,7 @@ For more information, please refer to https://unlicense.org
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Silke Pilon - team@kerndoelen.com
 
 Project Link: [https://github.com/SilkePilon/kerndoelen.com](https://github.com/SilkePilon/kerndoelen.com)
 
