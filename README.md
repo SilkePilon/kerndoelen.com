@@ -103,7 +103,7 @@ down below you can see some more infomation on the code and more will be added!
 logdata
 
 <!-- USAGE EXAMPLES -->
-## Usage
+this is a test## Usage
 
 
 _For more examples, please refer to the [Documentation](https://kerndoelen.com)_
