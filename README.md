@@ -197,9 +197,9 @@ Project Link: [https://github.com/SilkePilon/kerndoelen.com](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [@slimetouber_official](https://www.tiktok.com/@slimetouber_official)
+* [@Jaivy Butzelaar](https://www.tiktok.com/@j.b.astrophotography)
+* [@Finn]()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
