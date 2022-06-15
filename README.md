@@ -103,8 +103,7 @@ down below you can see some more infomation on the code and more will be added!
 	<br>
 ```
 
- * Serving Flask app server (lazy loading)\n<br />  * Environment: production\n<br />    WARNING: This is a development server. Do not use it in a production deployment.\n<br />    Use a production WSGI server instead.\n<br />  * Debug mode: on\n<br />  * Running on i hide my ip (Press CTRL+C to quit)\n<br />  * Restarting with stat\n<br />  * Debugger is active!\n<br />  * Debugger PIN: 986-651-558\n<br /> 208.115.199.27 - - 15/Jun/2022 13:02:56 HEAD / HTTP/1.1 200 -\n<br /> 91.234.192.210 - - 15/Jun/2022 13:06:59 GET /account.exe HTTP/1.1 404 -\n
-
+ * Serving Flask app server (lazy loading)\n<br />  * Environment: production\n<br />    WARNING: This is a development server. Do not use it in a production deployment.\n<br />    Use a production WSGI server instead.\n<br />  * Debug mode: on\n<br />  * Running on i hide my ip (Press CTRL+C to quit)\n<br />  * Restarting with stat\n<br />  * Debugger is active!\n<br />  * Debugger PIN: 986-651-558\n<br /> 208.115.199.27 - - 15/Jun/2022 13:02:56 HEAD / HTTP/1.1 200 -\n<br /> 91.234.192.210 - - 15/Jun/2022 13:06:59 GET /account.exe HTTP/1.1 404 -\n<br /> 213.33.190.149 - - 15/Jun/2022 13:07:23 GET /met_https_reverse.exe HTTP/1.1 404 -\n<br /> 208.115.199.27 - - 15/Jun/2022 13:07:56 HEAD / HTTP/1.1 200 -\n<br /> 213.87.160.47 - - 15/Jun/2022 13:08:15 GET /xD.exe HTTP/1.1 404 -\n
 ```
 </details>
 
