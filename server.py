@@ -69,7 +69,7 @@ def blockip():
        ip = request.headers.getlist("X-Forwarded-For")[0]
     else:
         ip = request.remote_addr
-    print("ip : "+ip)
+   
     
     with open("block.txt", "r") as f:
         blockedips = f.read()
