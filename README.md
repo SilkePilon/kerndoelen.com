@@ -103,7 +103,68 @@ down below you can see some more infomation on the code and more will be added!
 	<br>
 
 
-``` * Serving Flask app server (lazy loading)\n  * Environment: production\n    WARNING: This is a development server. Do not use it in a production deployment.\n    Use a production WSGI server instead.\n  * Debug mode: on\n  * Running on i hide my ip (Press CTRL+C to quit)\n  * Restarting with stat\n  * Debugger is active!\n  * Debugger PIN: 986-651-558\n 208.115.199.27 - - 15/Jun/2022 13:02:56 HEAD / HTTP/1.1 200 -\n 91.234.192.210 - - 15/Jun/2022 13:06:59 GET /account.exe HTTP/1.1 404 -\n 213.33.190.149 - - 15/Jun/2022 13:07:23 GET /met_https_reverse.exe HTTP/1.1 404 -\n 208.115.199.27 - - 15/Jun/2022 13:07:56 HEAD / HTTP/1.1 200 -\n 213.87.160.47 - - 15/Jun/2022 13:08:15 GET /xD.exe HTTP/1.1 404 -\n 31.121.55.210 - - 15/Jun/2022 13:09:52 GET /.env HTTP/1.1 404 -\n 31.121.55.210 - - 15/Jun/2022 13:09:53 POST / HTTP/1.1 405 -\n 31.121.55.210 - - 15/Jun/2022 13:09:53 code 400 message Bad request syntax (0x%5B%5D=androxgh0st)\n 31.121.55.210 - - 15/Jun/2022 13:09:53 None / HTTP/0.9 HTTPStatus.BAD_REQUEST -\n  * Detected change in /root/server/school/github.py reloading\n ip : 208.115.199.27\n ip : 91.234.192.210\n ip : 213.33.190.149\n ip : 208.115.199.27\n ip : 213.87.160.47\n ip : 31.121.55.210\n ip : 31.121.55.210\n  * Restarting with stat\n  * Debugger is active!\n  * Debugger PIN: 986-651-558\n  * Detected change in /root/server/school/github.py reloading\n  * Restarting with stat\n  * Debugger is active!\n  * Debugger PIN: 986-651-558\n  * Detected change in /root/server/school/github.py reloading\n  * Restarting with stat\n  * Debugger is active!\n  * Debugger PIN: 986-651-558\n 208.115.199.27 - - 15/Jun/2022 13:12:56 HEAD / HTTP/1.1 200 -\n  * Detected change in /root/server/school/github.py reloading\n ip : 208.115.199.27\n  * Restarting with stat\n  * Debugger is active!\n  * Debugger PIN: 986-651-558\n  * Detected change in /root/server/school/github.py reloading\n  * Restarting with stat\n```
+``` * Serving Flask app server (lazy loading)\n
+  * Environment: production\n
+    WARNING: This is a development server. Do not use it in a production deployment.\n
+    Use a production WSGI server instead.\n
+  * Debug mode: on\n
+  * Running on i hide my ip (Press CTRL+C to quit)\n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+ 208.115.199.27 - - 15/Jun/2022 13:02:56 HEAD / HTTP/1.1 200 -\n
+ 91.234.192.210 - - 15/Jun/2022 13:06:59 GET /account.exe HTTP/1.1 404 -\n
+ 213.33.190.149 - - 15/Jun/2022 13:07:23 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 15/Jun/2022 13:07:56 HEAD / HTTP/1.1 200 -\n
+ 213.87.160.47 - - 15/Jun/2022 13:08:15 GET /xD.exe HTTP/1.1 404 -\n
+ 31.121.55.210 - - 15/Jun/2022 13:09:52 GET /.env HTTP/1.1 404 -\n
+ 31.121.55.210 - - 15/Jun/2022 13:09:53 POST / HTTP/1.1 405 -\n
+ 31.121.55.210 - - 15/Jun/2022 13:09:53 code 400
+ message Bad request syntax (0x%5B%5D=androxgh0st)\n
+ 31.121.55.210 - - 15/Jun/2022 13:09:53 None / HTTP/0.9 HTTPStatus.BAD_REQUEST -\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+ ip : 208.115.199.27\n
+ ip : 91.234.192.210\n
+ ip : 213.33.190.149\n
+ ip : 208.115.199.27\n
+ ip : 213.87.160.47\n
+ ip : 31.121.55.210\n
+ ip : 31.121.55.210\n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+ 208.115.199.27 - - 15/Jun/2022 13:12:56 HEAD / HTTP/1.1 200 -\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+ ip : 208.115.199.27\n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+  * Restarting with stat\n
+```
 </details>
 
 
