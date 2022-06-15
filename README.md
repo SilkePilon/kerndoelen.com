@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
-    <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Kerndoelen.com</h3>
@@ -211,6 +211,90 @@ down below you can see some more infomation on the code and more will be added!
   * Debugger is active!\n
   * Debugger PIN: 986-651-558\n
  208.115.199.27 - - 15/Jun/2022 13:22:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 13:27:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 13:32:56 HEAD / HTTP/1.1 200 -\n
+ 177.75.218.26 - - 15/Jun/2022 13:33:08 GET / HTTP/1.1 200 -\n
+ 104.217.249.182 - - 15/Jun/2022 13:34:15 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 13:37:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 13:42:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 13:47:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 13:52:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 13:57:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:02:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:07:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:12:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:17:56 HEAD / HTTP/1.1 200 -\n
+ 185.220.102.244 - - 15/Jun/2022 14:18:53 GET /account.exe HTTP/1.1 404 -\n
+ 91.211.89.207 - - 15/Jun/2022 14:19:17 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 185.220.100.249 - - 15/Jun/2022 14:20:26 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:22:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:27:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:32:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:37:56 HEAD / HTTP/1.1 200 -\n
+ 172.70.250.124 - - 15/Jun/2022 14:39:43 GET /cookies HTTP/1.1 200 -\n
+ 172.70.250.148 - - 15/Jun/2022 14:39:47 GET /static/bg8.mp4 HTTP/1.1 200 -\n
+ 172.70.250.46 - - 15/Jun/2022 14:39:50 GET /static/icon.ico HTTP/1.1 304 -\n
+ 172.70.251.125 - - 15/Jun/2022 14:39:51 GET / HTTP/1.1 200 -\n
+ 159.89.152.227 - - 15/Jun/2022 14:39:52 POST /mgmt/tm/util/bash HTTP/1.1 404 -\n
+ 172.70.251.197 - - 15/Jun/2022 14:39:53 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.70.251.197 - - 15/Jun/2022 14:39:53 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.70.251.197 - - 15/Jun/2022 14:39:53 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 159.89.152.227 - - 15/Jun/2022 14:39:58 GET / HTTP/1.1 200 -\n
+ 172.70.251.197 - - 15/Jun/2022 14:40:28 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.70.251.197 - - 15/Jun/2022 14:40:29 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.136 - - 15/Jun/2022 14:40:35 GET /cookies HTTP/1.1 200 -\n
+ 172.68.50.48 - - 15/Jun/2022 14:40:36 GET /static/bg8.mp4 HTTP/1.1 200 -\n
+ 172.68.50.48 - - 15/Jun/2022 14:40:36 GET /static/bg8.mp4 HTTP/1.1 304 -\n
+ 172.68.50.48 - - 15/Jun/2022 14:40:36 GET /static/bg8.mp4 HTTP/1.1 304 -\n
+ 172.70.86.33 - - 15/Jun/2022 14:40:37 GET /static/icon.ico HTTP/1.1 200 -\n
+ 172.68.50.158 - - 15/Jun/2022 14:40:39 GET / HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:40:41 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:40:41 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:40:42 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:40:42 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.156 - - 15/Jun/2022 14:41:13 GET /upload HTTP/1.1 200 -\n
+ 172.68.50.154 - - 15/Jun/2022 14:41:14 GET /static/logo2.png HTTP/1.1 200 -\n
+ 172.68.50.114 - - 15/Jun/2022 14:41:14 GET /static/logo.png HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:14 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:14 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:15 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:15 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.218 - - 15/Jun/2022 14:41:39 GET /kern/ShanevanHeezik HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:40 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:40 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:41 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:41 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.158 - - 15/Jun/2022 14:41:47 GET / HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:47 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:48 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:48 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:41:48 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:42:56 HEAD / HTTP/1.1 200 -\n
+ 172.68.50.136 - - 15/Jun/2022 14:43:15 GET /begripen HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:16 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:16 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:16 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:16 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.156 - - 15/Jun/2022 14:43:24 GET / HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:25 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:25 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:26 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:26 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.56 - - 15/Jun/2022 14:43:35 GET /kgt/Economie HTTP/1.1 200 -\n
+ 172.68.50.134 - - 15/Jun/2022 14:43:35 GET /kgt/style.css HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:35 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:35 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:36 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.68.50.168 - - 15/Jun/2022 14:43:36 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.70.250.124 - - 15/Jun/2022 14:44:20 GET / HTTP/1.1 200 -\n
+ 172.70.251.197 - - 15/Jun/2022 14:44:21 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:47:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:52:56 HEAD / HTTP/1.1 200 -\n
+ 141.101.68.62 - - 15/Jun/2022 14:53:36 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 208.115.199.27 - - 15/Jun/2022 14:57:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 15:02:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 15:07:56 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 15/Jun/2022 15:12:56 HEAD / HTTP/1.1 200 -\n
 ```
 </details>
 
