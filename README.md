@@ -117,12 +117,6 @@ down below you can see some more infomation on the code and more will be added!
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/dataonreq.png" alt="Logo">
   </a>
 </div>
-<div align="center">
-  ip's blocked form accesing the site:
-  <a href="https://github.com/SilkePilon/kerndoelen.com/">
-    <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/ipblocked.png" alt="Logo">
-  </a>
-</div>
 
 
 
