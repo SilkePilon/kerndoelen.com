@@ -11,3 +11,11 @@
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 986-651-558
+141.101.68.182 - - [15/Jun/2022 12:35:40] "GET /cookies HTTP/1.1" 200 -
+108.162.229.18 - - [15/Jun/2022 12:35:40] "GET /static/bg8.mp4 HTTP/1.1" 200 -
+141.101.68.248 - - [15/Jun/2022 12:35:40] "GET /static/icon.ico HTTP/1.1" 200 -
+162.158.50.101 - - [15/Jun/2022 12:35:42] "GET / HTTP/1.1" 200 -
+141.101.68.62 - - [15/Jun/2022 12:35:43] "GET /static/bg.mp4 HTTP/1.1" 200 -
+141.101.68.62 - - [15/Jun/2022 12:35:43] "GET /static/bg.mp4 HTTP/1.1" 206 -
+141.101.68.62 - - [15/Jun/2022 12:35:44] "GET /static/bg.mp4 HTTP/1.1" 200 -
+141.101.68.62 - - [15/Jun/2022 12:35:44] "GET /static/bg.mp4 HTTP/1.1" 206 -
