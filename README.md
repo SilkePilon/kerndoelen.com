@@ -114,7 +114,7 @@ down below you can see some more infomation on the code and more will be added!
 
 ## Logs
 
-@[:verbatim](https://github.com/SilkePilon/kerndoelen.com/blob/master/test2.log)
+{5:12}(test2.log)
 
 
 <!-- USAGE EXAMPLES -->
