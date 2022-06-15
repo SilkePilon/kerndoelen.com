@@ -9,7 +9,8 @@ with open("readme.txt", "r") as f:
 contents.insert(105, str(log) + "\n")
 
 with open("README.md", "w") as f:
-    f.write(str(contents))
+    contents = "".join(contents)
+    f.write(contents)
 os.system("git rm -r --cached --ignore-unmatch .")
 os.system("git add .")
 msg = input("message: ")
