@@ -15,7 +15,10 @@ with open("README.md", "w") as f:
     f.write(contents)
 os.system("git rm -r --cached --ignore-unmatch .")
 os.system("git add .")
-msg = str(sys.argv[1])
+try:
+    msg = str(sys.argv[1])
+except:
+    msg = "log update"
 msg = '"' + msg + '"'
 os.system("git commit -m " + msg )
 os.system("git push origin master")
