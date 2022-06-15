@@ -1,6 +1,8 @@
 import codecs
 
 import os
+os.remove("README.md")
+open("README.md", 'a').close()
 with codecs.open("README.md", "r+", "utf-8") as F:
     readme = F.read()
     with open("test2.log", "r") as X:
