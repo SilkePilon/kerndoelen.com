@@ -19,3 +19,15 @@
 141.101.68.62 - - [15/Jun/2022 12:35:43] "GET /static/bg.mp4 HTTP/1.1" 206 -
 141.101.68.62 - - [15/Jun/2022 12:35:44] "GET /static/bg.mp4 HTTP/1.1" 200 -
 141.101.68.62 - - [15/Jun/2022 12:35:44] "GET /static/bg.mp4 HTTP/1.1" 206 -
+ * Detected change in '/root/server/school/github.py', reloading
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 986-651-558
