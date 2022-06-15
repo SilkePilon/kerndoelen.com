@@ -103,7 +103,7 @@ down below you can see some more infomation on the code and more will be added!
 logdata
 
 
- * Serving Flask app server (lazy loading)\n<br />  * Environment: production\n<br />    WARNING: This is a development server. Do not use it in a production deployment.\n<br />    Use a production WSGI server instead.\n<br />  * Debug mode: on\n<br />  * Running on http://167.172.47.127:80 (Press CTRL+C to quit)\n<br />  * Restarting with stat\n<br />  * Debugger is active!\n<br />  * Debugger PIN: 986-651-558\n
+ * Serving Flask app server (lazy loading)\n<br />  * Environment: production\n<br />    WARNING: This is a development server. Do not use it in a production deployment.\n<br />    Use a production WSGI server instead.\n<br />  * Debug mode: on\n<br />  * Running on http://167.172.47.127:80 (Press CTRL+C to quit)\n<br />  * Restarting with stat\n<br />  * Debugger is active!\n<br />  * Debugger PIN: 986-651-558\n<br />  * Detected change in /root/server/school/github.py<br /> reloading\n<br />  * Restarting with stat\n<br />  * Debugger is active!\n<br />  * Debugger PIN: 986-651-558\n
 
 
 <!-- USAGE EXAMPLES -->
