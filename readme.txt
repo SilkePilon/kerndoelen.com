@@ -99,9 +99,11 @@ down below you can see some more infomation on the code and more will be added!
 
 
 ## Logs
+<details>
+<summary>Full logs (real time)</summary>
+<br>
 
-logdata
-
+</details>
 
 
 
