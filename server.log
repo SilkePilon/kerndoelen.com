@@ -32,3 +32,10 @@ ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
  * Debugger is active!
  * Debugger PIN: 986-651-558
 208.115.199.27 - - [15/Jun/2022 12:37:56] "HEAD / HTTP/1.1" 200 -
+77.162.15.236 - - [15/Jun/2022 12:42:26] "GET / HTTP/1.1" 200 -
+ * Detected change in '/root/server/school/github.py', reloading
+ip : 208.115.199.27
+ip : 77.162.15.236
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 986-651-558
