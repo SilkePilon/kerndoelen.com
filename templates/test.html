@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta charset='UTF-8'>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icon.ico') }}">
+    <title>kerndoelen.com</title>
+    <style>
+        .submit2 {
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 6px;
+            color: #fff;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.192));
+            border: 0;
+            max-width:100%;
+            width: auto;
+            height: auto;
+            margin: 35px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            
+            font-size: 12px;
+            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        }
+        
+
+
+      .glass {
+        width: 10px;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        border-radius: 6px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+      }
+      .glass2 {
+        width: 10px;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        border-radius: 6px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+      } 
+
+      .buttons {
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        border-radius: 6px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+      } 
+
+      .gezocht {
+        max-width:100%;
+        width: auto;
+        height: auto;
+        margin: 35px;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        border-radius: 6px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+      } 
+
+      .made {
+        max-width:100%;
+        width: auto;
+        margin: 35px;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        border-radius: 6px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        height: auto;
+      }
+
+      #myVideo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+
+      form {
+
+        width: 400px;
+        height: 33px;
+        border-radius: 5px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+      }
+
+      
+
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+      }
+
+      svg {
+        color: #fff;
+        fill: currentColor;
+        width: 24px;
+        height: 24px;
+        padding: 10px;
+      }
+
+      button {
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        border-radius: 1.3em;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        all: unset;
+        cursor: pointer;
+        height: 43px;
+        white-space: nowrap;
+        overflow: hidden;
+        width:80px;
+      }
+
+      /* Google Font Import - Poppins */
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+      *{
+        
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          
+      }
+
+      :root{
+          /* ===== Colors ===== */
+          --body-color: #ffff;
+          --sidebar-color: #FFF;
+          --primary-color: #695CFE;
+          --primary-color-light: #F6F5FF;
+          --toggle-color: #DDD;
+          --text-color: #ffff;
+
+          /* ====== Transition ====== */
+          --tran-03: all 0.2s ease;
+          --tran-03: all 0.3s ease;
+          --tran-04: all 0.3s ease;
+          --tran-05: all 0.3s ease;
+      }
+
+      
+
+      ::selection{
+          background-color: var(--primary-color);
+          
+      }
+
+      body.dark{
+          --body-color: #18191a;
+          --sidebar-color: #242526;
+          --primary-color: #3a3b3c;
+          --primary-color-light: #3a3b3c;
+          --toggle-color: #fff;
+          --text-color: #ccc;
+      }
+
+      /* ===== Sidebar ===== */
+      .sidebar{
+          background: rgba( 255, 255, 255, 0.25 );
+          box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+          backdrop-filter: blur( 13px );
+          -webkit-backdrop-filter: blur( 13px );
+          position: fixed;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          height: 90%;
+          width: 260px;
+          padding: 10px 14px;
+          margin: 10px;
+          border-radius: 6px;
+          transition: var(--tran-05);
+          z-index: 100;  
+      }
+      .sidebar.close{
+          width: 88px;
+      }
+
+      /* ===== Reusable code - Here ===== */
+      .sidebar li{
+          height: 50px;
+          list-style: none;
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+      }
+
+      .sidebar header .image,
+      .sidebar .icon{
+          margin-top: 4px;
+          min-width: 60px;
+          border-radius: 6px;
+      }
+
+      .sidebar .icon{
+          min-width: 60px;
+          border-radius: 6px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 20px;
+      }
+
+      .sidebar .text,
+      .sidebar .icon{
+          color: var(--text-color);
+          transition: var(--tran-03);
+      }
+
+      .sidebar .text{
+          font-size: 17px;
+          font-weight: 500;
+          white-space: nowrap;
+          opacity: 1;
+      }
+      .sidebar.close .text{
+          opacity: 0;
+      }
+      /* =========================== */
+
+      .sidebar header{
+          position: relative;
+      }
+
+      .sidebar header .image-text{
+          display: flex;
+          align-items: center;
+      }
+      .sidebar header .logo-text{
+          display: flex;
+          flex-direction: column;
+      }
+      header .image-text .name {
+          margin-top: 7px;
+          margin-left: 6px;
+          font-size: 20px;
+          font-weight: 600;
+      }
+
+      header .image-text .profession{
+          font-size: 16px;
+          margin-left: 7px;
+          margin-top: -2px;
+          display: block;
+      }
+
+      .sidebar header .image{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .sidebar header .image img{
+          width: 45px;
+          border-radius: 6px;
+      }
+
+      .sidebar header .toggle{
+          position: absolute;
+          top: 50%;
+          right: -25px;
+          transform: translateY(-50%) rotate(180deg);
+          height: 25px;
+          width: 25px;
+          background: rgba( 255, 255, 255, 0.25 );
+          color: var(--sidebar-color);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 22px;
+          cursor: pointer;
+          transition: var(--tran-05);
+      }
+
+      body.dark .sidebar header .toggle{
+          color: var(--text-color);
+      }
+
+      .sidebar.close .toggle{
+          transform: translateY(-50%) rotate(0deg);
+      }
+
+      .sidebar .menu{
+          margin-top: 25px;
+      }
+
+      .sidebar li.search-box{
+          border-radius: 6px;
+          background: rgba( 255, 255, 255, 0.25 );
+          
+          backdrop-filter: blur( 13px );
+          -webkit-backdrop-filter: blur( 13px );
+          cursor: pointer;
+          transition: var(--tran-05);
+      }
+
+      .sidebar li.search-box input{
+          height: 100%;
+          width: 100%;
+          outline: none;
+          border: none;
+          background: rgba( 255, 255, 255, 0.0 );
+          
+          color: var(--text-color);
+          border-radius: 6px;
+          font-size: 17px;
+          font-weight: 500;
+          transition: var(--tran-05);
+      }
+      .sidebar li a{
+          list-style: none;
+          background-color: transparent;
+          display: flex;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+          border-radius: 6px;
+          text-decoration: none;
+          transition: var(--tran-03);
+      }
+
+      .sidebar li a:hover{
+          background-color: var(--primary-color);
+      }
+      .sidebar li a:hover .icon,
+      .sidebar li a:hover .text{
+          color: var(--sidebar-color);
+      }
+      body.dark .sidebar li a:hover .icon,
+      body.dark .sidebar li a:hover .text{
+          color: var(--text-color);
+      }
+
+      .sidebar .menu-bar{
+          height: calc(100% - 55px);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          overflow-y: scroll;
+      }
+      .menu-bar::-webkit-scrollbar{
+          display: none;
+      }
+      .sidebar .menu-bar .mode{
+          border-radius: 6px;
+          background: rgba( 255, 255, 255, 0.25 );
+          color: none;
+          
+          position: relative;
+          transition: var(--tran-05);
+      }
+
+      .menu-bar .mode .sun-moon{
+          height: 50px;
+          width: 60px;
+      }
+
+      .mode .sun-moon i{
+          position: absolute;
+      }
+      .mode .sun-moon i.sun{
+          opacity: 0;
+      }
+      body.dark .mode .sun-moon i.sun{
+          opacity: 1;
+      }
+      body.dark .mode .sun-moon i.moon{
+          opacity: 0;
+      }
+
+      .menu-bar .bottom-content .toggle-switch{
+          position: absolute;
+          right: 0;
+          height: 90%;
+          min-width: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 6px;
+          cursor: pointer;
+      }
+      .toggle-switch .switch{
+          position: relative;
+          height: 22px;
+          width: 40px;
+          border-radius: 25px;
+          background-color: var(--toggle-color);
+          transition: var(--tran-05);
+      }
+
+      .switch::before{
+          content: '';
+          position: absolute;
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          top: 50%;
+          left: 5px;
+          transform: translateY(-50%);
+          background-color: var(--sidebar-color);
+          transition: var(--tran-04);
+      }
+
+      body.dark .switch::before{
+          left: 20px;
+      }
+
+      .home{
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 250px;
+          height: 100%;
+          width: calc(100% - 250px);
+          color: var(--body-color);
+          transition: var(--tran-05);
+      }
+      .home .text{
+          font-size: 30px;
+          font-weight: 500;
+          color: var(--text-color);
+          padding: 12px 60px;
+      }
+
+      .sidebar.close ~ .home{
+          left: 78px;
+          height: 100vh;
+          width: calc(100% - 78px);
+      }
+      body.dark .home .text{
+          color: var(--text-color);
+      }
+
+    </style>
+  </head>
+  <body>
+    <video autoplay muted poster="" id="myVideo">
+        <source src="{{ url_for('static', filename='bg.mp4') }}" type="video/mp4">
+    </video>
+    <script>
+        document.querySelector('video').playbackRate = 0.6;;
+    </script>
+    <br>
+    <!-- Coding by CodingLab | www.codinglabweb.com -->
+        
+        <!----======== CSS ======== -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!----===== Boxicons CSS ===== -->
+        
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--<title>Dashboard Sidebar Menu</title>--> 
+        <nav class="sidebar close">
+          <header>
+              <div class="image-text">
+                  <span class="image">
+                      <img src="{{ url_for('static', filename='kerndoelen.jpg') }}" alt="">
+                  </span>
+  
+                  <div class="text logo-text">
+                      <span class="name">kerndoelen</span>
+                      <span class="profession">.com</span>
+                  </div>
+              </div>
+  
+              <i class='bx bx-chevron-right toggle'></i>
+          </header>
+  
+          <div class="menu-bar">
+              <div class="menu">
+  
+                  <li class="search-box">
+                      <i class='bx bx-search icon'></i>
+                      <form role="search" id="form">
+                        <input type="text" id="query" placeholder="zoek...">
+                      </form>
+                  </li>
+  
+                  <ul class="menu-links">
+                      <li class="nav-link">
+                      <a href="https://kerndoelen.com/">
+                        <i class='bx bx-home bx-fade-right-hover icon'></i>
+                          <span class="text nav-text">home</span>
+                      </a>
+                      </li>
+                      <li class="nav-link">
+                          <a href="https://kerndoelen.com/kgt/Aardrijkskunde">
+                            <i class='bx bx-planet bx-spin-hover icon'></i>
+                              <span class="text nav-text">Aardrijkskunde</span>
+                          </a>
+                      </li>
+  
+                      <li class="nav-link">
+                          <a href="https://kerndoelen.com/kgt/Biologie">
+                            <i class='bx bx-dna icon'></i>
+                              <span class="text nav-text">Biologie</span>
+                          </a>
+                      </li>
+  
+                      <li class="nav-link">
+                          <a href="https://kerndoelen.com/kgt/Economie">
+                            <i class='bx bx-money bx-tada-hover icon'></i>
+                              <span class="text nav-text">Economie</span>
+                          </a>
+                      </li>
+  
+                      <li class="nav-link">
+                          <a href="https://kerndoelen.com/kgt/Geschiedenis">
+                            <i class='bx bx-time-five bx-spin-hover icon'></i>
+                              <span class="text nav-text">Geschiedenis</span>
+                          </a>
+                      </li>
+  
+                      <li class="nav-link">
+                          <a href="https://kerndoelen.com/kgt/Natuurkunde">
+                              <i class='bx bx-leaf bx-fade-down-hover icon' ></i>
+                              <span class="text nav-text">Natuurkunde</span>
+                          </a>
+                      </li>
+  
+                      <li class="nav-link">
+                          <a href="https://kerndoelen.com/kgt/Scheikunde">
+                              <i class='bx bxl-react bx-spin-hover icon' ></i>
+                              <span class="text nav-text">Scheikunde</span>
+                          </a>
+                      </li>
+
+                      <li class="nav-link">
+                        <a href="https://kerndoelen.com/begripen">
+                            <i class='bx bx-folder bx-burst-hover icon' ></i>
+                            <span class="text nav-text">begrippen</span>
+                        </a>
+                      </li>
+                      <li class="nav-link">
+                        <a href="https://kerndoelen.com/cookies">
+                            <i class='bx bx-cookie bx-spin-hover icon' ></i>
+                            <span class="text nav-text">cookies</span>
+                        </a>
+                      </li>
+
+                      <li class="nav-link">
+                          <a href="https://kerndoelen.com/upload">
+                              <i class='bx bx bxs-id-card bx-burst-hover icon' ></i>
+                              <span class="text nav-text">kerndoelen teller</span>
+                          </a>
+                        </li>
+  
+                  </ul>
+              </div>
+  
+              <div class="bottom-content">
+                  <li class="">
+                      <a href="https://kerndoelen.com/login">
+                          <i class='bx bx-log-in icon' ></i>
+                          <span class="text nav-text">login</span>
+                      </a>
+                  </li>
+  
+                  <!---
+                  <li class="mode">
+                      <div class="sun-moon">
+                          <i class='bx bx-moon icon moon'></i>
+                          <i class='bx bx-sun icon sun'></i>
+                      </div>
+                      <span class="mode-text text">Dark mode</span>
+  
+                      <div class="toggle-switch">
+                          <span class="switch"></span>
+                      </div>
+                  </li>
+                  -->
+                  
+                </div>
+            </div>
+    
+        </nav>
+    
+        
+            
+    
+        <script>
+            const body = document.querySelector('body'),
+          sidebar = body.querySelector('nav'),
+          toggle = body.querySelector(".toggle"),
+          searchBtn = body.querySelector(".search-box"),
+          modeSwitch = body.querySelector(".toggle-switch"),
+          modeText = body.querySelector(".mode-text");
+    
+    
+          toggle.addEventListener("click" , () =>{
+              sidebar.classList.toggle("close");
+          })
+    
+          searchBtn.addEventListener("click" , () =>{
+              sidebar.classList.remove("close");
+          })
+          
+          modeSwitch.addEventListener("click" , () =>{
+              body.classList.toggle("dark");
+              
+              if(body.classList.contains("dark")){
+                  modeText.innerText = "Light mode";
+              }else{
+                  modeText.innerText = "Dark mode";
+                  
+              }
+          });
+        </script>
+    
+  
+
+    <section class="home">
+      <center>
+        <script>
+          const f = document.getElementById('form');
+          const q = document.getElementById('query');
+          const google = 'https://kerndoelen.com/kgt/';
+          const ipdata = 'pagedart.com';
+          function submitted(event) {
+            event.preventDefault();
+            const url = google + q.value;
+            window.location.href = url;
+          }
+
+          f.addEventListener('submit', submitted);
+        </script>
+        <br>
+
+
+        <br>
+        <h1 style="color:#FFFFFF;margin: 35px;">{{ countkern }}</h1>
+        <h1 style="color:#FFFFFF;margin: 35px;">{{ countkern1 }}</h1>
+        <br>
+        <div class="wiki">
+          <br>
+          <h3 style="color:#FFFFFF">{{ find }} {{ ni1 }}</h3>
+
+
+
+          <h3 style="color:#FFFFFF">{{ info }}<br><br><br></h3>
+        </div>
+        <br>
+
+        <button style="color:#FFFFFF;width:40px;height:30px;text-decoration: underline;" onclick="location.href = 'http://kerndoelen.com/kgt/{{ find }}';"><big>kgt</big></button>
+
+        <button style="color:#FFFFFF;width:50px;height:30px;text-decoration: underline;" onclick="location.href = 'http://kerndoelen.com/havo/{{ find }}';"><big>havo</big></button>
+
+        <button style="color:#FFFFFF;width:50px;height:30px;text-decoration: underline;" onclick="location.href = 'http://kerndoelen.com/vwo/{{ find }}';"><big>vwo</big></button>
+        <br>
+        <br>
+        <p style="color:#FFFFFF;font-size: 14px;margin-left: 30px;margin-right: 30px;">{{ value }}<br><br><br><br><br></p>
+        <div class="made">
+            <br>
+            <p style="color:#FFFFFF;margin-left: 15px;">Donate : <br></p><br>
+            
+            <a style="color:#FFFFFF;margin-left: 15px;" href="https://www.paypal.com/paypalme/kerndoelen?country.x=NL&locale.x=nl_NL" class="btn btn-primary">PayPal</a><br>
+            <br>
+            <a style="color:#FFFFFF;margin-left: 15px;" href="https://www.paypal.com/paypalme/kerndoelen?country.x=NL&locale.x=nl_NL" class="btn btn-primary">ideal</a><br>
+            <br>
+            <a style="color:#FFFFFF;margin-left: 15px;" href="https://www.paypal.com/paypalme/kerndoelen?country.x=NL&locale.x=nl_NL" class="btn btn-primary">tikie</a><br>
+            <br>
+            <p style="color:#FFFFFF;margin-left: 15px;">made by : <br></p><br>
+  
+            <a style="color:#FFFFFF;margin-left: 15px;" href="https://github.com/overnice-exe" class="btn btn-primary">@overnice on GitHub - eigenaar/owner</a><br>
+            <br>
+            <a style="color:#FFFFFF;margin-left: 15px;" href="https://www.tiktok.com/@slimetouber_official?" class="btn btn-primary">@slimetouber_official on TikTok - info/data</a><br>
+            <br>
+            <a style="color:#FFFFFF;margin-left: 15px;" href="" class="btn btn-primary">@Finn - mentalen ondersteuner</a><br>
+            <br>
+            <a style="color:#FFFFFF;margin-left: 15px;" href="https://www.tiktok.com/@j.b.astrophotography" class="btn btn-primary">@Jaivy Butzelaar on tiktok - drone shot</a><br>
+  
+            <br>
+            <p style="color:#FFFFFF;margin-left: 15px;">Powered by : <br></p><br>
+            <a href="https://www.digitalocean.com/?refcode=cada907b2e57&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
+            <br>
+            <br>
+        </div>
+        <br>
+      </center>
+    </section>
+
+    
+    
+  </body>
+</html>
