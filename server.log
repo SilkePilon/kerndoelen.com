@@ -12,3 +12,18 @@
 213.33.190.149 - - [15/Jun/2022 13:07:23] "GET /met_https_reverse.exe HTTP/1.1" 404 -
 208.115.199.27 - - [15/Jun/2022 13:07:56] "HEAD / HTTP/1.1" 200 -
 213.87.160.47 - - [15/Jun/2022 13:08:15] "GET /xD.exe HTTP/1.1" 404 -
+31.121.55.210 - - [15/Jun/2022 13:09:52] "GET /.env HTTP/1.1" 404 -
+31.121.55.210 - - [15/Jun/2022 13:09:53] "POST / HTTP/1.1" 405 -
+31.121.55.210 - - [15/Jun/2022 13:09:53] code 400, message Bad request syntax ('0x%5B%5D=androxgh0st')
+31.121.55.210 - - [15/Jun/2022 13:09:53] "None / HTTP/0.9" HTTPStatus.BAD_REQUEST -
+ * Detected change in '/root/server/school/github.py', reloading
+ip : 208.115.199.27
+ip : 91.234.192.210
+ip : 213.33.190.149
+ip : 208.115.199.27
+ip : 213.87.160.47
+ip : 31.121.55.210
+ip : 31.121.55.210
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 986-651-558
