@@ -41,3 +41,197 @@ ip : 77.162.15.236
  * Debugger PIN: 986-651-558
 208.115.199.27 - - [15/Jun/2022 12:42:56] "HEAD / HTTP/1.1" 200 -
 208.115.199.27 - - [15/Jun/2022 12:47:56] "HEAD / HTTP/1.1" 200 -
+ * Detected change in '/root/server/school/server.py', reloading
+ip : 208.115.199.27
+ip : 208.115.199.27
+ * Restarting with stat
+  File "/root/server/school/server.py", line 289
+    def logsforgithub()
+                      ^
+SyntaxError: invalid syntax
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://167.172.47.127:80 (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 986-651-558
+172.71.102.120 - - [15/Jun/2022 12:52:03] "GET / HTTP/1.1" 200 -
+172.71.102.104 - - [15/Jun/2022 12:52:03] "GET /static/bg.mp4 HTTP/1.1" 304 -
+172.71.102.110 - - [15/Jun/2022 12:52:03] "GET /static/bg.mp4 HTTP/1.1" 200 -
+172.70.250.46 - - [15/Jun/2022 12:52:03] "GET /static/icon.ico HTTP/1.1" 200 -
+172.71.102.168 - - [15/Jun/2022 12:52:03] "GET /static/bg.mp4 HTTP/1.1" 304 -
+172.71.102.154 - - [15/Jun/2022 12:52:03] "GET /static/bg.mp4 HTTP/1.1" 200 -
+rm '.github/workflows/codeql-analysis.yml'
+rm '.gitignore'
+rm 'LICENSE.md'
+rm 'README.md'
+rm '__pycache__/email.cpython-310.pyc'
+rm 'block.txt'
+rm 'dataonreq.png'
+rm 'datastored.png'
+rm 'email/gmail/Google.py'
+rm 'email/gmail/__pycache__/Google.cpython-310.pyc'
+rm 'email/gmail/__pycache__/Google.cpython-38.pyc'
+rm 'email/gmail/client.json'
+rm 'email/gmail/quickstart.py'
+rm 'email/gmail/token files/token_gmail_v1.pickle'
+rm 'github.py'
+rm 'ipblocked.png'
+rm 'kern.txt'
+rm 'kerndoelen.sh'
+rm 'kerndoelen/havo-Aardrijkskunde.txt'
+rm 'kerndoelen/kgt-Aardrijkskunde.txt'
+rm 'kerndoelen/kgt-Biologie.txt'
+rm 'kerndoelen/kgt-Economie.txt'
+rm 'kerndoelen/kgt-Geschiedenis.txt'
+rm 'kerndoelen/kgt-Natuurkunde.txt'
+rm 'kerndoelen/kgt-Scheikunde.txt'
+rm 'kgt-Aardrijkskunde.txt'
+rm 'kgt-Biologie.txt'
+rm 'kgt-Economie.txt'
+rm 'kgt-Geschiedenis.txt'
+rm 'kgt-Natuurkunde.txt'
+rm 'logo.png'
+rm 'lookup.txt'
+rm 'readme.txt'
+rm 'server.crt'
+rm 'server.csr'
+rm 'server.log'
+rm 'server.py'
+rm 'templates/404.html'
+rm 'templates/Untitled-1.html'
+rm 'templates/begrippen.html'
+rm 'templates/begrippen2.html'
+rm 'templates/block.html'
+rm 'templates/cookie.html'
+rm 'templates/delcookie.html'
+rm 'templates/docx/Dagelijks leven .docx'
+rm 'templates/havo.html'
+rm 'templates/index.html'
+rm 'templates/kern.txt'
+rm 'templates/kgt.html'
+rm 'templates/leerdoelenkaart-aardrijkskunde-sept-2015.xlsx'
+rm 'templates/leerdoelenkaart-biologie-sept-2015-2 (2).xlsx'
+rm 'templates/leerdoelenkaart-economie-sept-2015 (1).xlsx'
+rm 'templates/leerdoelenkaart-natuurkunde-sept--2015 (1).xlsx'
+rm 'templates/login - Copy.html'
+rm 'templates/login.html'
+rm 'templates/main.html'
+rm 'templates/mainv2.html'
+rm 'templates/pdf/main.pdf'
+rm 'templates/pdf/sample.pdf'
+rm 'templates/portfolio.html'
+rm 'templates/profile.html'
+rm 'templates/rickroll.html'
+rm 'templates/test.html'
+rm 'templates/testvideo.html'
+rm 'templates/upload.html'
+rm 'templates/uploadurl.html'
+rm 'upload/BoazKorstanje.xls.xlsx'
+rm 'upload/BoazKorstanje.xls.xlsx.txt'
+rm 'upload/JacobvandeWerfhorst.xls.xlsx'
+rm 'upload/JacobvandeWerfhorst.xls.xlsx.txt'
+rm 'upload/JaivyButzelaar.xls.xlsx'
+rm 'upload/JaivyButzelaar.xls.xlsx.txt'
+rm 'upload/JesseAntes.xls.xlsx'
+rm 'upload/JesseAntes.xls.xlsx.txt'
+rm 'upload/JudaBoer.xls.xlsx'
+rm 'upload/JudaBoer.xls.xlsx.txt'
+rm 'upload/LarsvanNieuwenhuizen.xls.xlsx'
+rm 'upload/LarsvanNieuwenhuizen.xls.xlsx.txt'
+rm 'upload/MarintheMulder.xls.xlsx'
+rm 'upload/MarintheMulder.xls.xlsx.txt'
+rm 'upload/ShanevanHeezik.xls.xlsx'
+rm 'upload/ShanevanHeezik.xls.xlsx.txt'
+rm 'upload/SilkePilon.xls.xlsx'
+rm 'upload/SilkePilon.xls.xlsx.txt'
+rm 'upload/ThijmenOostwouder.xls.xlsx'
+rm 'upload/ThijmenOostwouder.xls.xlsx.txt'
+rm 'upload/ThobynKuulkers.xls.xlsx'
+rm 'upload/ThobynKuulkers.xls.xlsx.txt'
+rm 'upload/XaviGielen.xls.xlsx'
+rm 'upload/XaviGielen.xls.xlsx.txt'
+rm 'urls.json'
+rm 'usercount.txt'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@kerndoelen-server.(none)')
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+172.71.102.132 - - [15/Jun/2022 12:52:12] "GET /githublogs HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'logsforgithub' did not return a valid response. The function either returned None or ended without a return statement.
+172.70.250.212 - - [15/Jun/2022 12:52:13] "GET /githublogs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.70.250.52 - - [15/Jun/2022 12:52:13] "GET /githublogs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.70.250.78 - - [15/Jun/2022 12:52:13] "GET /githublogs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.70.250.78 - - [15/Jun/2022 12:52:13] "GET /githublogs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+208.115.199.27 - - [15/Jun/2022 12:52:56] "HEAD / HTTP/1.1" 200 -
+ * Detected change in '/root/server/school/server.py', reloading
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 2a02:a44e:c151:1:c162:8be6:c2cf:51c5
+ip : 208.115.199.27
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 986-651-558
+error: the following files have staged content different from both the
+file and the HEAD:
+    README.md
+    server.log
+    server.py
+    usercount.txt
+(use -f to force removal)
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@kerndoelen-server.(none)')
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+172.70.85.168 - - [15/Jun/2022 12:54:11] "GET /githublogs HTTP/1.1" 302 -
+172.70.85.60 - - [15/Jun/2022 12:54:12] "GET / HTTP/1.1" 200 -
+172.70.85.206 - - [15/Jun/2022 12:54:12] "GET /static/bg.mp4 HTTP/1.1" 200 -
+172.70.85.206 - - [15/Jun/2022 12:54:12] "GET /static/bg.mp4 HTTP/1.1" 206 -
+172.70.85.206 - - [15/Jun/2022 12:54:12] "GET /static/bg.mp4 HTTP/1.1" 200 -
+172.70.85.206 - - [15/Jun/2022 12:54:21] "GET /static/bg.mp4 HTTP/1.1" 206 -

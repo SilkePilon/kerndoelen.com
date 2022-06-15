@@ -281,6 +281,17 @@ def handle_data():
         return render_template('uploadurl.html', ip=ip_address, url="verkeerde url")
     return redirect(f"https://kerndoelen.com/upload", code=302)
 
+
+
+
+
+@app.route('/githublogs')
+def logsforgithub():
+    os.system("python3 github.py 'log update from site'")
+    return redirect(f"https://{ip_address}/", code=302)
+
+
+
 @app.route('/urlupload', methods = ['GET', 'POST'])
 def urlupload():
     if request.method == 'POST':
