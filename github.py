@@ -6,7 +6,7 @@ with open("server.log", "r") as x:
 with open("readme.txt", "r") as f:
     contents = f.readlines()
 
-log = str(log).replace("'", "").replace(",", "")
+log = str(log).replace("'", "").replace(",", "<br />")
 contents.insert(105, log + "\n")
 
 
