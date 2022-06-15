@@ -3,7 +3,7 @@ import codecs
 import os
 with open("server.log", "r") as x:
     log = x.readlines()
-with open("README.md", "r") as f:
+with open("readme.txt", "r") as f:
     contents = f.readlines()
 
 contents.insert(105, str(log) + "\n")
