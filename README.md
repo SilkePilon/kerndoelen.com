@@ -112,6 +112,9 @@ down below you can see some more infomation on the code and more will be added!
 </div>
 
 
+## Logs
+
+@[:verbatim](https://github.com/SilkePilon/kerndoelen.com/blob/master/test2.log)
 
 
 <!-- USAGE EXAMPLES -->
