@@ -113,16 +113,18 @@ Infomation stored on you:
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/datastored.png" alt="Logo">
   </a>
 When you make a request:
-<div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/dataonreq.png" alt="Logo">
   </a>
 ip's blocked form accesing the site:
-<div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/ipblocked.png" alt="Logo">
   </a>
 </div>
+
+
+
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
