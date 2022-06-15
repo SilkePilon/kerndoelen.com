@@ -122,12 +122,12 @@ ip's blocked form accesing the site:
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/ipblocked.png" alt="Logo">
   </a>
+</div>
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://kerndoelen.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
