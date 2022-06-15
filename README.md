@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
-    <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Kerndoelen.com</h3>
