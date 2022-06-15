@@ -182,8 +182,7 @@ def update_kern(url):
     filename = filename.replace(" ", "")
     username = re.sub(r"\d+", "", str(username)) 
     username = username.replace(" ", "")
-    print(filename)
-    print(username)
+    
     
     
     if not ".xls"  in filename:
@@ -216,8 +215,7 @@ def handle_data():
     if "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=" in projectpath:
             # print(projectpath.split("leerling=",1)[1])
             # print(projectpath.split("&security_token=",1)[1])
-            print(projectpath)
-            print(email)
+            
             
             from urllib.request import urlopen
             from urllib.request import urlretrieve
@@ -239,8 +237,7 @@ def handle_data():
             filename = filename.replace(" ", "")
             username = re.sub(r"\d+", "", str(username)) 
             username = username.replace(" ", "")
-            print(filename)
-            print(username)
+            
             if not ".xls"  in filename:
                 return redirect("https://kerndoelen.com", code=302)
             else:
@@ -289,7 +286,7 @@ def urlupload():
     if request.method == 'POST':
         text_input = request.form["data"]
         if "https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=" in text_input:
-            print(text_input)
+            print(" ")
         else:
             return render_template('uploadurl.html', ip=ip_address, url="probeer opnieuw")
     else:
@@ -334,8 +331,7 @@ def upload_file():
         filename = filename.replace(" ", "")
         username = re.sub(r"\d+", "", str(username)) 
         username = username.replace(" ", "")
-        print(filename)
-        print(username)
+        
 
         try:
             if username in find(f"{username}*.xlsx", "upload/")[0]:
@@ -367,7 +363,7 @@ def update_kerndoel(name):
     
     
     file12 = find(f"{name}*.xlsx", "upload/")[0]
-    print(file12)
+    
     username_id = str(file12).replace(".xls.xlsx", "").replace("upload/", "")
     
     f = open('urls.json')
@@ -380,7 +376,7 @@ def update_kerndoel(name):
     # list
     for i in data['emp_details']:
         if i['emp_name'] == f'{username_id}':
-            print(i['data']['url'])
+            
             url = i['data']['url']
             update_kern(url)
             break
@@ -416,9 +412,9 @@ def mijnkerndoelen(name):
     telcount = 0
     try:
         
-        print(find(f"{name}*.xlsx", "upload/")[0])
+        
         file12 = find(f"{name}*.xlsx", "upload/")[0]
-        print(file12)
+        
         username_id = str(file12).replace(".xls.xlsx", "").replace("upload/", "")
         
         f = open('urls.json')
@@ -448,7 +444,7 @@ def mijnkerndoelen(name):
         with open(f"{file12}.txt", "r") as fp:
             lines = fp.readlines()
             lines = lines[1].replace("Data", "").replace(" ", "").replace("NaN", "").replace("Datum", "").replace("\\n", "").replace("-", "/")
-            print(lines)
+            
             
     
            
@@ -722,7 +718,7 @@ def remov_duplicates(input):
  
     # joins two adjacent elements in iterable way
     s = " ".join(UniqW.keys())
-    print(s)
+    
     return s
 
     
@@ -734,13 +730,13 @@ def home():
     with open("usercount.txt", "r") as usercounter:
         usercount = usercounter.read()
         usercount = usercount.count("1\n")
-        print(usercount)
+       
         
     countwords3 = 0
     with open("lookup.txt", "r") as FFF:
         words = FFF.read()
         words = words.split('\n')
-        print(words)
+        
         
     with open("ips.txt", "a") as F:
             timeatm = datetime.now()
@@ -775,8 +771,8 @@ def line_prepender(filename, line):
 # find
 @app.route('/<niveaw>/<find>')
 def hello(find, niveaw):
-    print(niveaw)
-    print(request.url)
+    
+    
     
     if "77.162.15.236" in request.url:
         return "<title>kerndoelen.com</title>no direct ip"
