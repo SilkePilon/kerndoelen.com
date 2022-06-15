@@ -208,6 +208,9 @@ down below you can see some more infomation on the code and more will be added!
   * Detected change in /root/server/school/github.py
  reloading\n
   * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+ 208.115.199.27 - - 15/Jun/2022 13:22:56 HEAD / HTTP/1.1 200 -\n
 ```
 </details>
 

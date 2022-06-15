@@ -21,3 +21,4 @@ token files/*
 token.json
 server.key
 server.key.org
+urls.json
