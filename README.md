@@ -1618,6 +1618,9 @@ down below you can see some more infomation on the code and more will be added!
  162.158.233.34 - - 17/Jun/2022 08:10:57 GET /static/bg.mp4 HTTP/1.1 206 -\n
  162.158.233.34 - - 17/Jun/2022 08:11:35 GET /static/bg.mp4 HTTP/1.1 200 -\n
  208.115.199.27 - - 17/Jun/2022 08:13:24 HEAD / HTTP/1.1 200 -\n
+ 162.158.233.104 - - 17/Jun/2022 08:14:02 GET / HTTP/1.1 200 -\n
+ 162.158.233.34 - - 17/Jun/2022 08:14:02 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 162.158.233.62 - - 17/Jun/2022 08:14:03 GET /static/icon.ico HTTP/1.1 304 -\n
 ```
 </details>
 
