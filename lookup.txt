@@ -1,7 +1,4 @@
-ok
-tijd
 stofwisseling
-po
 7.3.1
 2.1.2
 2.2.1
@@ -15,17 +12,7 @@ endogene
 geschiedenis
 marktplaats
 economie
-kkel
-su
-kel
-rn
 groen
-lo
-tv
 natuur
-voortplanting
 dieren
 natuurrampen
-mensen
-natuurrampen
-mensen
