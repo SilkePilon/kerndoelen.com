@@ -5,3 +5,7 @@
  * Debug mode: on
  * Running on http://167.172.47.127:80 (Press CTRL+C to quit)
  * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 986-651-558
+208.115.199.27 - - [20/Jun/2022 07:33:24] "HEAD / HTTP/1.1" 200 -
+192.241.212.247 - - [20/Jun/2022 07:34:23] "GET /manager/html HTTP/1.1" 500 -

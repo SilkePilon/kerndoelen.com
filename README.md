@@ -110,6 +110,10 @@ down below you can see some more infomation on the code and more will be added!
   * Debug mode: on\n
   * Running on i hide my ip (Press CTRL+C to quit)\n
   * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+ 208.115.199.27 - - 20/Jun/2022 07:33:24 HEAD / HTTP/1.1 200 -\n
+ 192.241.212.247 - - 20/Jun/2022 07:34:23 GET /manager/html HTTP/1.1 500 -\n
 ```
 </details>
 
