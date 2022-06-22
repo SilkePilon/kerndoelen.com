@@ -91,6 +91,8 @@ down below you can see some more infomation on the code and more will be added!
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/datastored.png" alt="Logo">
   </a>
 </div>
+
+
 ## When you make a request:
 <div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
@@ -102,6 +104,8 @@ down below you can see some more infomation on the code and more will be added!
 <details>
 	<summary>Full logs (real time)</summary>
 	<br>
+
+
 
 
 
