@@ -103,6 +103,7 @@ down below you can see some more infomation on the code and more will be added!
 	<br>
 
 
+
 ``` * Serving Flask app server (lazy loading)\n
   * Environment: production\n
     WARNING: This is a development server. Do not use it in a production deployment.\n
@@ -2984,8 +2985,109 @@ down below you can see some more infomation on the code and more will be added!
  172.71.94.180 - - 22/Jun/2022 06:55:39 GET /static/bg.mp4 HTTP/1.1 206 -\n
  172.71.94.180 - - 22/Jun/2022 06:55:39 GET /static/bg.mp4 HTTP/1.1 200 -\n
  172.71.94.180 - - 22/Jun/2022 06:56:56 GET /static/bg.mp4 HTTP/1.1 206 -\n
-```
-</details>
+ 172.71.98.60 - - 22/Jun/2022 06:57:36 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.95.7 - - 22/Jun/2022 06:57:50 GET / HTTP/1.1 200 -\n
+ 172.71.94.180 - - 22/Jun/2022 06:57:50 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.94.180 - - 22/Jun/2022 06:57:50 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:57:53 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:01 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:03 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:04 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:07 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:08 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:09 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:09 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:12 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:13 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:15 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:15 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:18 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:19 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 208.115.199.27 - - 22/Jun/2022 06:58:25 HEAD / HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:27 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:28 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:32 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:33 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:36 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:37 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:40 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:42 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:45 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:46 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:49 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:50 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:53 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 172.71.98.60 - - 22/Jun/2022 06:58:54 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 208.115.199.27 - - 22/Jun/2022 07:03:25 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 22/Jun/2022 07:08:25 HEAD / HTTP/1.1 200 -\n
+ 141.101.76.48 - - 22/Jun/2022 07:10:17 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 141.101.76.122 - - 22/Jun/2022 07:10:21 GET /upload HTTP/1.1 200 -\n
+ 141.101.76.48 - - 22/Jun/2022 07:10:24 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 141.101.76.48 - - 22/Jun/2022 07:10:42 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 141.101.77.79 - - 22/Jun/2022 07:10:57 GET /upload HTTP/1.1 200 -\n
+ 141.101.77.35 - - 22/Jun/2022 07:10:57 GET /static/icon.ico HTTP/1.1 200 -\n
+ 141.101.76.48 - - 22/Jun/2022 07:11:28 GET /static/bg.mp4 HTTP/1.1 206 -\n
+ 141.101.76.48 - - 22/Jun/2022 07:11:29 GET /static/bg.mp4 HTTP/1.1 200 -\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder
+ JaivyButzelaar\n
+ https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131661&security_token=d3b45834d5a135d3f7380686362ec50d1ab93458542c8825ca8a5b9b01f2e919\n
+ WARNING *** file size (324712) not 512 + multiple of sector size (512)\n
+ https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=139556&security_token=b718326a090b0093a0a6f8f1c683472a195f2d26801bd4a40c888a6e6e1c0165\n
+ WARNING *** file size (305256) not 512 + multiple of sector size (512)\n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder
+ JaivyButzelaar\n
+ sorry geen wikipedia infomatie gevonden over style.css\n
+ \n
+ sorry geen wikipedia infomatie gevonden over style.css\n
+ \n
+ sorry geen wikipedia infomatie gevonden over style.css\n
+ \n
+ sorry geen wikipedia infomatie gevonden over style.css\n
+ \n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder
+ JaivyButzelaar\n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder
+ JaivyButzelaar\n
+ https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131661&security_token=d3b45834d5a135d3f7380686362ec50d1ab93458542c8825ca8a5b9b01f2e919\n
+ WARNING *** file size (324712) not 512 + multiple of sector size (512)\n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder
+ JaivyButzelaar\n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder
+ JaivyButzelaar\n
+ https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131651&security_token=2a61b62035e44860b498ea96e910a8350345a1dc304d9c9b720a1edcb8d9d137\n
+ WARNING *** file size (324712) not 512 + multiple of sector size (512)\n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder
+ JaivyButzelaar\n
+ https://www.peppels.net/app?o=Shared::Skills&f=leerling_skills_export&leerling=131661&security_token=d3b45834d5a135d3f7380686362ec50d1ab93458542c8825ca8a5b9b01f2e919\n
+ WARNING *** file size (324712) not 512 + multiple of sector size (512)\n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder is gek
+ JaivyButzelaar\n
+ ShanevanHeezik
+ SilkePilon
+ MarintheMulder
+ JaivyButzelaar\n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
+```</details>
 
 
 
@@ -3005,6 +3107,7 @@ _For more examples, please refer to the [Documentation](https://kerndoelen.com)_
 
 - [x] kerndoelen counter
 - [x] kerndoelen finder
+- [x] full dark mode and no backgroud mode
 - [ ] see not completed kerndoelen
 
 See the [open issues](https://github.com/SilkePilon/kerndoelen.com/issues) for a full list of proposed features (and known issues).
