@@ -3094,7 +3094,10 @@ down below you can see some more infomation on the code and more will be added!
  141.101.104.165 - - 22/Jun/2022 07:13:01 GET /kgt/Scheikunde HTTP/1.1 200 -\n
  141.101.76.18 - - 22/Jun/2022 07:13:01 GET /kgt/style.css HTTP/1.1 200 -\n
  141.101.76.48 - - 22/Jun/2022 07:13:02 GET /static/bg.mp4 HTTP/1.1 206 -\n
-```</details>
+ 208.115.199.27 - - 22/Jun/2022 07:13:24 HEAD / HTTP/1.1 200 -\n
+ 141.101.76.48 - - 22/Jun/2022 07:13:30 GET /static/bg.mp4 HTTP/1.1 200 -\n
+```
+</details>
 
 
 
