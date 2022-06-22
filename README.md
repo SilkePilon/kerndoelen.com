@@ -85,13 +85,14 @@ this is a school project i made for the studens of groevenbeek next.
 
 down below you can see some more infomation on the code and more will be added!
 
-
+## Infomation stored on you:
 <div align="center">
-  ## Infomation stored on you:
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/datastored.png" alt="Logo">
   </a>
-  ## When you make a request:
+</div>
+## When you make a request:
+<div align="center">
   <a href="https://github.com/SilkePilon/kerndoelen.com/">
     <img src="https://github.com/SilkePilon/kerndoelen.com/blob/master/dataonreq.png" alt="Logo">
   </a>
@@ -101,6 +102,7 @@ down below you can see some more infomation on the code and more will be added!
 <details>
 	<summary>Full logs (real time)</summary>
 	<br>
+
 
 
 
@@ -3096,7 +3098,21 @@ down below you can see some more infomation on the code and more will be added!
  141.101.76.48 - - 22/Jun/2022 07:13:02 GET /static/bg.mp4 HTTP/1.1 206 -\n
  208.115.199.27 - - 22/Jun/2022 07:13:24 HEAD / HTTP/1.1 200 -\n
  141.101.76.48 - - 22/Jun/2022 07:13:30 GET /static/bg.mp4 HTTP/1.1 200 -\n
+ 208.115.199.27 - - 22/Jun/2022 07:18:25 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 22/Jun/2022 07:23:24 HEAD / HTTP/1.1 200 -\n
+ 208.115.199.27 - - 22/Jun/2022 07:28:24 HEAD / HTTP/1.1 200 -\n
+ 185.220.101.58 - - 22/Jun/2022 07:28:55 GET /account.exe HTTP/1.1 404 -\n
+ 89.208.29.74 - - 22/Jun/2022 07:29:01 GET /met_https_reverse.exe HTTP/1.1 404 -\n
+ 185.220.101.133 - - 22/Jun/2022 07:29:36 GET /xD.exe HTTP/1.1 404 -\n
+  * Detected change in /root/server/school/github.py
+ reloading\n
+ sorry geen wikipedia infomatie gevonden over style.css\n
+ \n
+  * Restarting with stat\n
+  * Debugger is active!\n
+  * Debugger PIN: 986-651-558\n
 ```
+
 </details>
 
 
