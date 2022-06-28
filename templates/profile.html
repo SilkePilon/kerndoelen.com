@@ -234,14 +234,15 @@
 
 
                             {% for name in names %}
-                                {% if 'SilkePilon' in name %}
+                                {% if 'Silke' in name %}
                                     <a href="/kern/{{name}}">{{name}} [<img style="margin-top:-1px" src="{{ url_for('static', filename='logo2.png') }}" width="20" height="20" alt="dit logo geeft aan dat deze gebruiker geverifieerd is." title="eigenaar/owner"/>]</a>
                                     {% else %}
 
                                 
-                                        {% if 'ShanevanHeezik' in name or 'JaivyButzelaar' in name%}
+                                        {% if 'Jaivy' in name%}
                                         <a href="/kern/{{name}}">{{name}} [<img style="margin-top:-1px" src="{{ url_for('static', filename='logo.png') }}" width="20" height="20" alt="dit logo geeft aan dat deze gebruiker geverifieerd is." title="dit logo geeft aan dat deze gebruiker geverifieerd is."/>]</a>
-
+                                        {% elif 'Shane' in name%}
+                                        <a href="/kern/{{name}}">{{name}} [<img style="margin-top:-1px" src="/static/logo4.png" width="20" height="20" alt="dit logo geeft aan dat deze gebruiker geverifieerd is." title="dit logo geeft aan dat deze gebruiker geverifieerd is.">]</a>
 
                                 
                                         {% else %}
